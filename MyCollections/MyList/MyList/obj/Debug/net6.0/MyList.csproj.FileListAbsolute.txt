@@ -1,0 +1,15 @@
+C:\Main Folder\Project C#\Project\MyList\MyList\bin\Debug\net6.0\MyList.exe
+C:\Main Folder\Project C#\Project\MyList\MyList\bin\Debug\net6.0\MyList.deps.json
+C:\Main Folder\Project C#\Project\MyList\MyList\bin\Debug\net6.0\MyList.runtimeconfig.json
+C:\Main Folder\Project C#\Project\MyList\MyList\bin\Debug\net6.0\MyList.dll
+C:\Main Folder\Project C#\Project\MyList\MyList\bin\Debug\net6.0\MyList.pdb
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.csproj.AssemblyReference.cache
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.AssemblyInfoInputs.cache
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.AssemblyInfo.cs
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.csproj.CoreCompileInputs.cache
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.dll
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\refint\MyList.dll
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.pdb
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\MyList.genruntimeconfig.cache
+C:\Main Folder\Project C#\Project\MyList\MyList\obj\Debug\net6.0\ref\MyList.dll
