@@ -1,36 +1,66 @@
 ﻿using System;
 
-namespace PetShop
+namespace Animals
 {
     abstract class Animal
-    {   
-        public Animal(string name, uint age)
+    {
+        private string _species = "Animal";
+        private string _name;
+        private uint _age;
+
+        public Animal(string name, string species, uint age)
         {
             _name = name;
+            _species = species;
             _age = age;
         }
 
-        public virtual void say() 
+        public string Name
+        {
+            get => _name;
+            protected set { _name = value; }
+        }
+
+        public string Species
+        {
+            get => _species; 
+            protected set { _species = value; }
+        }
+
+        public uint Age
+        {
+            get => _age;
+            protected set { if (value > 0) _age = value; }
+        }
+
+        public virtual void Say() 
         {
             Console.WriteLine("I`m Animal!");
         }
-        public void eat() 
+
+        public static void Eat() 
         {
             Console.WriteLine("Eating...");
         }
 
-        public string name
+        public override string ToString()
         {
-            get { return _name; }
-            protected set { _name = value; }
-        }
-        public uint age
-        {
-            get { return _age; }
-            protected set { if(value > 0) _age = value; }
+            return ($"Name: {_name}\nAge: {_age}\nSpecies: {_species}\n");
         }
 
-        private string _name;
-        private uint _age;
+        public static bool operator==(Animal a, Animal b)
+        {
+            if ((a.Name == b.Name) & (a.Age == b.Age) & (a.Species == b.Species))
+            {
+                return true;
+            }
+            
+            return false;
+        }
+
+        public static bool operator !=(Animal a, Animal b)
+        {
+            return !(a == b);
+        }
     }
 }

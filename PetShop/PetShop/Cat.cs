@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace PetShop
+namespace Animals
 {
     internal class Cat : Animal
     {
-        public Cat(string name, uint age) : base(name, age) {}
+        public Cat(string name, string species, uint age) : base(name, species, age) {}
 
-        public override void say()
+        public override void Say()
         {
-            Console.WriteLine($"Cat {name} say: Maww!");
+            Console.WriteLine($"Cat {Name} say: Maww!");
         }
     }
 }
